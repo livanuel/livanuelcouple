@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Mariage de Livana et Manuel</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)), url('https://example.com/paradise.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #00695c;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #b8860b;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ffd700;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(248, 248, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        article {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #b8860b;
+            padding-bottom: 20px;
+        }
+        h2 {
+            color: #483d8b;
+        }
+        footer {
+            background-color: rgba(248, 248, 255, 0.8);
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 5px solid #b8860b;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .upload, .live {
+            margin-top: 20px;
+            text-align: center;
+        }
+        button {
+            background-color: #b8860b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ffd700;
+        }
+        svg {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le Blog de Mariage de Livana et Manuel</h1>
+        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="45" stroke="#b8860b" stroke-width="5" fill="none" />
+            <text x="50" y="60" font-family="Georgia, serif" font-size="24" fill="#483d8b" text-anchor="middle">
+                L & M
+            </text>
+        </svg>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#histoires">Histoires</a>
+        <a href="#conseils">Conseils</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Notre Histoire d'Amour</h2>
+            <p>Découvrez comment Livana et Manuel se sont rencontrés et l'évolution de leur relation jusqu'à leur mariage.</p>
+        </article>
+        <article>
+            <h2>Conseils pour un Mariage Réussi</h2>
+            <p>Des astuces pratiques pour planifier un mariage inoubliable sans stress.</p>
+        </article>
+        <div class="upload">
+            <h2>Importer des Photos</h2>
+            <p>Utilisez un service comme Google Photos ou Dropbox pour partager vos photos.</p>
+            <button onclick="alert('Fonction d\'importation à intégrer')">Importer des Photos</button>
+        </div>
+        <div class="live">
+            <h2>Événements en Direct</h2>
+            <p>Regardez le mariage de Livana et Manuel en direct via YouTube ou Zoom.</p>
+            <button onclick="alert('Lien vers l\'événement en direct à intégrer')">Voir en Direct</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Mariage de Livana et Manuel. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
